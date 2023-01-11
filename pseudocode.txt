@@ -1,0 +1,7 @@
+define output array []
+for each possible set of 3:
+	if (a + b + c = 0)
+		if (a != b && a!= c && b != c)
+			if solution does not contain this triplet
+				add triplet to output array
+return output array
